@@ -36,8 +36,8 @@ int main() {
 
     // Input patient details
     printf("Enter Patient Name: ");
-    fgets(patientName, sizeof(patientName), stdin);
-   
+    scanf("%s",patient name);
+
     printf("Enter Ward Type (G/S/P): ");
     scanf(" %c", &wardType); // Space before %c to consume newline
 
